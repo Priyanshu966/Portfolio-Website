@@ -1,0 +1,34 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-clr: #242426;
+  --clr-white: white;
+  --clr-link-a: orange;
+  --clr-link-b: red;
+  --clr-link-c: blue;
+  --clr-link-d: pink;
+  --clr-link-e: green;
+  --max-width: 1170px;
+  --fixed-width: 620px;
+  --transition: all 0.3s linear;
+
+}
+
+/*Global Variables*/
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: black;
+  color: var(--clr-white);
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
